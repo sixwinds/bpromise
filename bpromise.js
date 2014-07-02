@@ -21,7 +21,12 @@
         return [ BPromise.STATUS_PENDING, BPromise.STATUS_FULFILLED, BPromise.STATUS_REJECTED ].indexOf( s ) > -1;
     }
 
-    BPromise.prototype.resolve = function ( value ) {
+    // promise resolution procdure
+    BPromise.prototype.resolvePromise = function ( promise, value ) {
+        // TODO
+    };
+
+    BPromise.prototype.resolve = function ( value, promise ) {
 
         if ( this.status === BPromise.STATUS_PENDING ) {
             this.ffv = value; // fulfilled value
@@ -96,11 +101,13 @@
                     var nextFfv;
                     try {
                         nextFfv = fulfilledHandler( this.ffv );
-                        this.nextPromise.resolve( nextFfv );
+                        this.resolvePromise( this.nextPromise, nextFfv );
                     } catch( e ) {
                         this.nextPromise.reject( e.message );
                     }
                     
+                } else {
+                    this.nextPromise.resolve( this.ffv );
                 }
                 break;
             case BPromise.STATUS_REJECTED:
@@ -109,10 +116,12 @@
                     var nextRfr;
                     try {
                         nextRfr = rejectedHandler( this.rjr );
-                        this.nextPromise.resolve( nextRfr );
+                        this.resolvePromise( this.nextPromise, nextRfr );
                     } catch( e ) {
                         this.nextPromise.reject( e.message );
                     }
+                } else {
+                    this.nextPromise.reject( this.rjr );
                 }
                 break;
         }
