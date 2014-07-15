@@ -2,10 +2,7 @@
     function BPromise() {
 
         this.status = BPromise.STATUS_PENDING;
-        this.fHandlerQueue = [];
-        this.rHandlerQueue = [];
-
-        this.nextPromise = new BPromise();
+        this.callbackObjChain = [];
     }
 
     // @const
@@ -30,8 +27,16 @@
     };
     // @static
     BPromise.isPromise = function ( obj ) {
-        return obj.then && obj.getStatus;
+        return obj.then && obj.__BP__ === 1;
     };
+
+    BPromise.isThenable = function ( o ) {
+        var bp = BPromise;
+
+        return ( bp.isObject( o ) || bp.isFunction( o ) ) && bp.isFunction( o.then ); 
+    };
+
+    BPromise.prototype.__BP__ = 1;
 
     BPromise.prototype.getFulfilledValue = function () {
         return this.ffv;
@@ -40,6 +45,8 @@
     BPromise.prototype.getRejectedReason = function () {
         return this.rjr;
     };
+
+
 
     // promise resolution procdure
     BPromise.prototype.resolvePromise = function ( promise, value ) {
@@ -67,17 +74,32 @@
                     promise.reject( value.getRejectedReason() );
                     break;
             }
-        } else if ( BPromise.isObject( value ) || BPromise.isFunction( value ) ) {
-            // TODO
+        } else if ( BPromise.isThenable( value ) ) {
+            value.then( function ( v ) {
+                promise.resolve( v );
+            }, function ( r ) {
+                promise.reject( r );
+            } )
         } else {
             promise.resolve( value );
         }
 
+        return promise;
     };
 
     BPromise.prototype.getStatus = function () {
         return this.status;
     };
+
+    BPromise.prototype.invokeCallback = function ( promise, value, callback ) {
+        try {
+            this.resolvePromise( promise, callback( value ) );
+        } catch( e ) {
+            // 一旦报错，则直接把 callback 对应的 promise设置成 rejected
+            promise.reject( e.message );
+        }
+       
+    }
 
     BPromise.prototype.resolve = function ( value, promise ) {
 
@@ -85,23 +107,17 @@
             this.ffv = value; // fulfilled value
             this.status = BPromise.STATUS_FULFILLED;
 
-            var firstHandler = this.fHandlerQueue.shift();
-            var nextFfv;
+            var cbo = this.callbackObjChain.shift();
 
-            while( firstHandler ) {
-                try {
-                    nextFfv = firstHandler( value );
-
-                    firstHandler = this.fHandlerQueue.shift();
-                    if ( !firstHandler ) {
-                        this.nextPromise.resolve( nextFfv );
-                    }
-                } catch ( e ) {
-                    // 一旦报错，则直接把下一个promise设置成rejected返回
-                    this.nextPromise.reject( e.message );
-                    return;
+            while( cbo ) {
+                if ( cbo.fulfilledHandler ) {
+                    this.invokeCallback( cbo.promise, this.ffv, cbo.fulfilledHandler );
+                } else {
+                    // 如果 fulfilledHandler 不是 function，则用当前 promise1 的值把对应的 promise2 置为 fulfilled 状态
+                    cbo.promise.fulfilled( this.ffv )
                 }
-
+                
+                cbo = this.callbackObjChain.shift();
             }
 
         }
@@ -113,73 +129,85 @@
             this.rjr = reason; // rejected reason
             this.status = BPromise.STATUS_REJECTED;
 
-            var firstHandler = this.rHandlerQueue.shift();
-            var nextRjr;
+            var cbo = this.callbackObjChain.shift();
 
-            while( firstHandler ) {
-                try {
-                    nextRjr = firstHandler( value );
-
-                    firstHandler = this.rHandlerQueue.shift();
-                    if ( !firstHandler ) {
-                        this.nextPromise.resolve( nextRjr );
-                    }
-                } catch ( e ) {
-                    // 一旦报错，则直接把下一个promise设置成rejected返回
-                    this.nextPromise.reject( e.message );
-                    return;
+            while( cbo ) {
+                if ( cbo.rejectedHandler ) {
+                    this.invokeCallback( cbo.promise, this.rjr, cbo.rejectedHandler );
+                } else {
+                    // 如果 rejectedHandler 不是 function，则用当前 promise1 的值把对应的 promise2 置为 rejected 状态
+                    cbo.promise.reject( this.rjr );
                 }
-
+                
+                cbo = this.callbackObjChain.shift();
             }
             
         }       
     };
 
     BPromise.prototype.then = function ( fulfilledHandler, rejectedHandler ) {
+        var o = {
+            fulfilledHandler: BPromise.isFunction( fulfilledHandler ) ? fulfilledHandler : false,
+            rejectedHandler: BPromise.isFunction( rejectedHandler ) ? rejectedHandler : false,
+        };
+
+        var p = new BPromise();
+        o.promise = p;
+
         switch( this.status ) {
             case BPromise.STATUS_PENDING: 
-                
-                if ( BPromise.isFunction( fulfilledHandler ) ) {
-                    this.fHandlerQueue.push( fulfilledHandler )
-                }
-
-                if ( BPromise.isFunction( rejectedHandler ) ) {
-                    this.rHandlerQueue.push( rejectedHandler );
-                }
-
+                this.callbackObjChain.push( o );
                 break;
-            case BPromise.STATUS_FULFILLED:
 
-                if ( BPromise.isFunction( fulfilledHandler ) ) {
-                    var nextFfv;
-                    try {
-                        nextFfv = fulfilledHandler( this.ffv );
-                        this.resolvePromise( this.nextPromise, nextFfv );
-                    } catch( e ) {
-                        this.nextPromise.reject( e.message );
-                    }
-                    
+            case BPromise.STATUS_FULFILLED:
+                if ( o.fulfilledHandler ) {
+                   this.invokeCallback( p, this.ffv, o.fulfilledHandler );
                 } else {
-                    this.nextPromise.resolve( this.ffv );
+                    p.resolve( this.ffv );
                 }
+                
                 break;
             case BPromise.STATUS_REJECTED:
-
-                if ( BPromise.isFunction( rejectedHandler ) ) {
-                    var nextRfr;
-                    try {
-                        nextRfr = rejectedHandler( this.rjr );
-                        this.resolvePromise( this.nextPromise, nextRfr );
-                    } catch( e ) {
-                        this.nextPromise.reject( e.message );
-                    }
+                if ( o.rejectedHandler ) {
+                    this.invokeCallback( p, this.rjr, o.rejectedHandler );
                 } else {
-                    this.nextPromise.reject( this.rjr );
+                    p.reject( this.rjr );
                 }
                 break;
         }
 
-        return this.nextPromise;
+        return p;
     };
 
+
+// export promises-aplus tests adapter
+BPromise.resolved = function ( value ) {
+    var p = new BPromise();
+    p.resolve( value );
+
+    return p;
+};
+
+BPromise.rejected = function ( value ) {
+    var p = new BPromise();
+    p.reject( value );
+
+    return p;    
+};
+
+BPromise.deferred = function () {
+    var p = new BPromise();
+
+    return {
+        promise: p, 
+        resolve: function ( v ) {
+            p.resolve( v );
+        },
+        reject: function ( r ) {
+            p.reject( r );
+        }
+    }
+};
+
+module.exports = BPromise;
 
