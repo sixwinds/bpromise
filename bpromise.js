@@ -114,7 +114,7 @@
                     this.invokeCallback( cbo.promise, this.ffv, cbo.fulfilledHandler );
                 } else {
                     // 如果 fulfilledHandler 不是 function，则用当前 promise1 的值把对应的 promise2 置为 fulfilled 状态
-                    cbo.promise.fulfilled( this.ffv )
+                    cbo.promise.resolve( this.ffv )
                 }
                 
                 cbo = this.callbackObjChain.shift();
