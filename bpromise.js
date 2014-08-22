@@ -47,12 +47,11 @@
         return p.constructor === BPromise;
     };
 
-    BPromise.isThenable = function ( x ) {
+    BPromise.getThenFromThenable = function ( x ) {
         if ( Utils.isFunction( x ) || Utils.isObject( x ) ) {
             var then = x.then;
-            return Utils.isFunction( then );
+            return Utils.isFunction( then ) ? then : void 0;
         }
-        return false;
     };
 
     BPromise.prototype.changeStatus = function ( statusCode, value ) {
@@ -118,7 +117,7 @@
 
         // 3. create a return promise by callback return value X
         // 3.1 if x === current promise
-        if ( promise === this ) {
+        if ( promise === x ) {
              throw new TypeError( 'Return promise of method "then" can not be the same object to current promise.' );
         }
         // 3.2 if x is a promise
@@ -132,19 +131,50 @@
             }
             x.then( onFulfilled, onRejected);
 
-            return;
+        } else {
+            // 3.3 if x is thenable obj
+            var thenableThen;
+            // 如果在检查 thenable 对象的 then 方法时候报错，则 then 返回的 promise 置为 rejected 状态
+            try {
+                thenableThen = BPromise.getThenFromThenable( x );
+            } catch ( e ) {
+                promise[ METHOD_NAME_REJECT ]( e );
+                return 
+            }
+
+            if ( thenableThen ) {
+            // do 3.3
+                this.handleThenable( promise, x, thenableThen );
+            } else {
+            // 3.4 default: x is normal value
+                promise[ METHOD_NAME_RESOLVE ]( x );                
+            }
         }
 
-        // 3.3 if x is thenable obj
-        if ( BPromise.isThenable( x ) ) {
-        
-            // TODO
-            return;
+    }
+
+    BPromise.prototype.handleThenable = function ( promise, thenableObj, then ) {
+        try {
+            var self = this;
+            var callbackInvoked = false;
+            var resolvePromise = function ( y ) {
+                if ( !callbackInvoked ) {
+                    self.resolvePromise( promise, y );
+                    callbackInvoked = true;
+                }
+            };
+            var rejectPromise = function ( y ) {
+                if ( !callbackInvoked ) {
+                    promise[ METHOD_NAME_REJECT ]( y );
+                    callbackInvoked = true;
+                } 
+            };
+            then.call( thenableObj, resolvePromise, rejectPromise );
+        } catch ( e ) {
+            if ( !callbackInvoked ) {
+                promise[ METHOD_NAME_REJECT ]( e );
+            }
         }
-
-        // 3.4 default: x is normal value
-        promise[ METHOD_NAME_RESOLVE ]( x );
-
     }
 
     BPromise.prototype.then = function ( onFulfilled, onRejected ) {
@@ -168,4 +198,37 @@
         return returnPromise;
     };
 
-} )( window );
+
+
+    // export promises-aplus tests adapter
+    BPromise.resolved = function ( value ) {
+        var p = new BPromise();
+        p.resolve( value );
+
+        return p;
+    };
+
+    BPromise.rejected = function ( value ) {
+        var p = new BPromise();
+        p.reject( value );
+
+        return p;    
+    };
+
+    BPromise.deferred = function () {
+        var p = new BPromise();
+
+        return {
+            promise: p, 
+            resolve: function ( v ) {
+                p.resolve( v );
+            },
+            reject: function ( r ) {
+                p.reject( r );
+            }
+        }
+    };
+
+    module.exports = BPromise;
+
+} )( global || window );
