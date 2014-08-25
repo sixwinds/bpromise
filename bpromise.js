@@ -65,25 +65,30 @@
         BPromise.prototype[ methodName ] = function( v ) {
 
             if ( this.__status__ === BPromise.STATUS_PENDING ) {
+                
                 this.changeStatus( BPromise[ 'STATUS_' + methodName.toUpperCase() + 'ED' ], v );
-
-                var self = this;
-                Utils.async( function () {
-                    var cbChain = self.callbackChain;
-                    self.callbackChain = [];
-
-                    var len = cbChain.length;
-                    var i;
-                    for ( i = 0; i < len; i++ ) {
-                        var currentCallbackObj = cbChain[ i ];
-
-                        self.invokeCallback( currentCallbackObj[ 'on' + methodName ], currentCallbackObj.p );                        
-                    }
-
-                } );
+                this.notifyCallbackChain();
             }
         }
     } );
+
+    BPromise.prototype.notifyCallbackChain = function () {
+        var methodName = BPromise.getMethodName( this.__status__ );
+        var self = this;
+        Utils.async( function () {
+            var cbChain = self.callbackChain;
+            self.callbackChain = [];
+
+            var len = cbChain.length;
+            var i;
+            for ( i = 0; i < len; i++ ) {
+                var currentCallbackObj = cbChain[ i ];
+
+                self.invokeCallback( currentCallbackObj[ 'on' + methodName ], currentCallbackObj.p );                        
+            }
+
+        } );
+    };
 
     // 根据调用 callback 的状态（ 正常返回，抛异常，以及 callback 非函数 ）来处理 then 的返回的 promise 的状态。
     BPromise.prototype.invokeCallback = function ( callback, promise ) {
@@ -192,7 +197,7 @@
         // pending 则保持现有状态
         if (  this.__status__ === BPromise.STATUS_RESOLVEED || this.__status__ === BPromise.STATUS_REJECTED  ) {
             // 根据状态调用相应的方法
-            this[ BPromise.getMethodName( this.__status__ ) ]();
+            this.notifyCallbackChain();
         }
         
         return returnPromise;
