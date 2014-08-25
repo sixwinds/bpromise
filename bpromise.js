@@ -13,10 +13,10 @@
 
     var Utils = {
         isFunction: function ( f ) {
-            return typeof f === 'function';
+            return f && typeof f === 'function';
         },
         isObject: function ( o ) {
-            return typeof o === 'object';
+            return o && typeof o === 'object';
         },
         async: setTimeout
     }
@@ -44,7 +44,7 @@
     };
 
     BPromise.isBPromise = function ( p ) {
-        return p.constructor === BPromise;
+        return p && p.constructor === BPromise;
     };
 
     BPromise.getThenFromThenable = function ( x ) {
@@ -125,6 +125,7 @@
         if ( promise === x ) {
              throw new TypeError( 'Return promise of method "then" can not be the same object to current promise.' );
         }
+    
         // 3.2 if x is a promise
         if ( BPromise.isBPromise( x ) ) {
 
@@ -137,6 +138,7 @@
             x.then( onFulfilled, onRejected);
 
         } else {
+
             // 3.3 if x is thenable obj
             var thenableThen;
             // 如果在检查 thenable 对象的 then 方法时候报错，则 then 返回的 promise 置为 rejected 状态
@@ -144,7 +146,7 @@
                 thenableThen = BPromise.getThenFromThenable( x );
             } catch ( e ) {
                 promise[ METHOD_NAME_REJECT ]( e );
-                return 
+                return;
             }
 
             if ( thenableThen ) {
