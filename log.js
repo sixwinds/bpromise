@@ -2,68 +2,68 @@
   "stats": {
     "suites": 530,
     "tests": 872,
-    "passes": 730,
+    "passes": 760,
     "pending": 0,
-    "failures": 142,
-    "start": "2014-08-25T09:38:56.870Z",
-    "end": "2014-08-25T09:40:02.819Z",
-    "duration": 65949
+    "failures": 112,
+    "start": "2014-09-10T15:02:22.246Z",
+    "end": "2014-09-10T15:03:24.089Z",
+    "duration": 61843
   },
   "tests": [
     {
       "title": "already-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. already-fulfilled",
-      "duration": 101
+      "duration": 102
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. immediately-fulfilled",
-      "duration": 109
+      "duration": 106
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. eventually-fulfilled",
-      "duration": 106
+      "duration": 109
     },
     {
       "title": "trying to fulfill then immediately reject",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill then immediately reject",
-      "duration": 110
+      "duration": 111
     },
     {
       "title": "trying to fulfill then reject, delayed",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill then reject, delayed",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "trying to fulfill immediately then reject delayed",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill immediately then reject delayed",
-      "duration": 108
+      "duration": 107
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. already-rejected",
-      "duration": 113
+      "duration": 109
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. immediately-rejected",
-      "duration": 107
+      "duration": 108
     },
     {
       "title": "eventually-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. eventually-rejected",
-      "duration": 108
+      "duration": 113
     },
     {
       "title": "trying to reject then immediately fulfill",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. trying to reject then immediately fulfill",
-      "duration": 109
+      "duration": 108
     },
     {
       "title": "trying to reject then fulfill, delayed",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. trying to reject then fulfill, delayed",
-      "duration": 113
+      "duration": 107
     },
     {
       "title": "trying to reject immediately then fulfill delayed",
@@ -73,7 +73,7 @@
     {
       "title": "`onFulfilled` is `undefined`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `undefined`",
-      "duration": 10
+      "duration": 13
     },
     {
       "title": "`onFulfilled` is `null`",
@@ -83,12 +83,12 @@
     {
       "title": "`onFulfilled` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `false`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "`onFulfilled` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `5`",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "`onFulfilled` is an object",
@@ -103,7 +103,7 @@
     {
       "title": "`onFulfilled` is `null`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is `null`",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "`onFulfilled` is `false`",
@@ -113,12 +113,12 @@
     {
       "title": "`onFulfilled` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is `5`",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "`onFulfilled` is an object",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is an object",
-      "duration": 30
+      "duration": 27
     },
     {
       "title": "`onRejected` is `undefined`",
@@ -133,12 +133,12 @@
     {
       "title": "`onRejected` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a directly-fulfilled promise `onRejected` is `false`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "`onRejected` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a directly-fulfilled promise `onRejected` is `5`",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "`onRejected` is an object",
@@ -158,7 +158,7 @@
     {
       "title": "`onFulfilled` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a promise fulfilled and then chained off of `onFulfilled` is `false`",
-      "duration": 27
+      "duration": 28
     },
     {
       "title": "`onFulfilled` is `5`",
@@ -168,7 +168,7 @@
     {
       "title": "`onFulfilled` is an object",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a promise fulfilled and then chained off of `onFulfilled` is an object",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "already-fulfilled",
@@ -193,17 +193,17 @@
     {
       "title": "never fulfilled",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.2: it must not be called before `promise` is fulfilled never fulfilled",
-      "duration": 158
+      "duration": 161
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.3: it must not be called more than once. already-fulfilled",
-      "duration": 13
+      "duration": 11
     },
     {
       "title": "trying to fulfill a pending promise more than once, immediately",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.3: it must not be called more than once. trying to fulfill a pending promise more than once, immediately",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "trying to fulfill a pending promise more than once, delayed",
@@ -228,12 +228,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.1: it must be called after `promise` is rejected, with `promise`’s rejection reason as its first argument. already-rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.1: it must be called after `promise` is rejected, with `promise`’s rejection reason as its first argument. immediately-rejected",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "eventually-rejected",
@@ -248,17 +248,17 @@
     {
       "title": "never rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.2: it must not be called before `promise` is rejected never rejected",
-      "duration": 158
+      "duration": 161
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. already-rejected",
-      "duration": 13
+      "duration": 11
     },
     {
       "title": "trying to reject a pending promise more than once, immediately",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. trying to reject a pending promise more than once, immediately",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "trying to reject a pending promise more than once, delayed",
@@ -273,22 +273,22 @@
     {
       "title": "when multiple `then` calls are made, spaced apart in time",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. when multiple `then` calls are made, spaced apart in time",
-      "duration": 171
+      "duration": 172
     },
     {
       "title": "when `then` is interleaved with rejection",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. when `then` is interleaved with rejection",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected already-fulfilled",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected immediately-fulfilled",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "eventually-fulfilled",
@@ -303,7 +303,7 @@
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected immediately-rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "eventually-rejected",
@@ -313,7 +313,7 @@
     {
       "title": "when `onFulfilled` is added immediately before the promise is fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when `onFulfilled` is added immediately before the promise is fulfilled",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "when `onFulfilled` is added immediately after the promise is fulfilled",
@@ -323,17 +323,17 @@
     {
       "title": "when one `onFulfilled` is added inside another `onFulfilled`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when one `onFulfilled` is added inside another `onFulfilled`",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "when `onFulfilled` is added inside an `onRejected`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when `onFulfilled` is added inside an `onRejected`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "when the promise is fulfilled asynchronously",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when the promise is fulfilled asynchronously",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "when `onRejected` is added immediately before the promise is rejected",
@@ -353,7 +353,7 @@
     {
       "title": "when one `onRejected` is added inside another `onRejected`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (rejection case) when one `onRejected` is added inside another `onRejected`",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "when the promise is rejected asynchronously",
@@ -363,22 +363,22 @@
     {
       "title": "fulfilled",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). strict mode fulfilled",
-      "duration": 15
+      "duration": 14
     },
     {
       "title": "rejected",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). strict mode rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "fulfilled",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). sloppy mode fulfilled",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "rejected",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). sloppy mode rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "already-fulfilled",
@@ -393,7 +393,7 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. multiple boring fulfillment handlers eventually-fulfilled",
-      "duration": 78
+      "duration": 76
     },
     {
       "title": "already-fulfilled",
@@ -403,7 +403,7 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. multiple fulfillment handlers, one of which throws immediately-fulfilled",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "eventually-fulfilled",
@@ -413,17 +413,17 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values already-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values immediately-fulfilled",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values eventually-fulfilled",
-      "duration": 94
+      "duration": 93
     },
     {
       "title": "already-fulfilled",
@@ -443,7 +443,7 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. `onFulfilled` handlers are called in the original order even when one handler is added inside another handler already-fulfilled",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "immediately-fulfilled",
@@ -453,17 +453,17 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. `onFulfilled` handlers are called in the original order even when one handler is added inside another handler eventually-fulfilled",
-      "duration": 94
+      "duration": 93
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple boring rejection handlers already-rejected",
-      "duration": 16
+      "duration": 17
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple boring rejection handlers immediately-rejected",
-      "duration": 14
+      "duration": 15
     },
     {
       "title": "eventually-rejected",
@@ -473,12 +473,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple rejection handlers, one of which throws already-rejected",
-      "duration": 17
+      "duration": 15
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple rejection handlers, one of which throws immediately-rejected",
-      "duration": 14
+      "duration": 62
     },
     {
       "title": "eventually-rejected",
@@ -488,7 +488,7 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -543,7 +543,7 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `undefined` already-fulfilled",
-      "duration": 26
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -583,12 +583,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `null` eventually-fulfilled",
-      "duration": 94
+      "duration": 95
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `null` already-rejected",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-rejected",
@@ -668,12 +668,12 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error immediately-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error eventually-fulfilled",
-      "duration": 93
+      "duration": 92
     },
     {
       "title": "already-rejected",
@@ -693,17 +693,17 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack already-fulfilled",
-      "duration": 33
+      "duration": 34
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack immediately-fulfilled",
-      "duration": 31
+      "duration": 28
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack eventually-fulfilled",
-      "duration": 92
+      "duration": 94
     },
     {
       "title": "already-rejected",
@@ -718,12 +718,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -733,12 +733,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -748,12 +748,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object already-fulfilled",
-      "duration": 31
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -763,12 +763,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -778,12 +778,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -793,12 +793,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -808,12 +808,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -823,12 +823,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -838,12 +838,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -853,12 +853,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -868,12 +868,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise eventually-rejected",
-      "duration": 93
+      "duration": 115
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `undefined` already-fulfilled",
-      "duration": 32
+      "duration": 25
     },
     {
       "title": "immediately-fulfilled",
@@ -883,12 +883,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `undefined` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `null` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -898,12 +898,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `null` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `false` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -913,12 +913,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `false` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `5` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -928,12 +928,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `5` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an object already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -943,12 +943,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an object eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an array containing a function already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -958,12 +958,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an array containing a function eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `undefined` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -973,12 +973,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `undefined` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `null` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -988,12 +988,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `null` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `false` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -1003,12 +1003,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `false` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `5` already-rejected",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-rejected",
@@ -1018,12 +1018,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `5` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an object already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -1033,12 +1033,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an object eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an array containing a function already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -1048,12 +1048,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an array containing a function eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.1: If `promise` and `x` refer to the same object, reject `promise` with a `TypeError' as the reason. via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1063,27 +1063,27 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.1: If `x` is pending, `promise` must remain pending until `x` is fulfilled or rejected. via return from a fulfilled promise",
-      "duration": 113
+      "duration": 111
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.1: If `x` is pending, `promise` must remain pending until `x` is fulfilled or rejected. via return from a rejected promise",
-      "duration": 110
+      "duration": 112
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is already-fulfilled via return from a fulfilled promise",
-      "duration": 41
+      "duration": 42
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is already-fulfilled via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is eventually-fulfilled via return from a fulfilled promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a rejected promise",
@@ -1098,52 +1098,52 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is already-rejected via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is eventually-rejected via return from a fulfilled promise",
-      "duration": 109
+      "duration": 111
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is eventually-rejected via return from a rejected promise",
-      "duration": 109
+      "duration": 108
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a fulfilled promise",
-      "duration": 211
+      "duration": 25
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a rejected promise",
-      "duration": 201
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a fulfilled promise",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a rejected promise",
-      "duration": 201
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a fulfilled promise",
-      "duration": 204
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a rejected promise",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `undefined` via return from a fulfilled promise",
-      "duration": 21
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1153,12 +1153,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `null` via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `null` via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1178,12 +1178,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `0` via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is an error via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1203,12 +1203,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a date via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a date via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1228,12 +1228,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is an always-pending thenable via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a fulfilled promise via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1248,63 +1248,67 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a rejected promise via return from a rejected promise",
-      "duration": 31
+      "duration": 33
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a fulfilled promise",
-      "duration": 212
+      "duration": 25
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a rejected promise",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a fulfilled promise",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a rejected promise",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 206
+      "duration": 28
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 213
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise"
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a rejected promise"
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 213
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise"
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a rejected promise"
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1344,7 +1348,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `5` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1354,7 +1358,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an object `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1379,12 +1383,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an array `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 48
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an array `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1414,12 +1418,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -1429,67 +1433,67 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 38
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 39
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 45
     },
     {
       "title": "via return from a rejected promise",
@@ -1549,12 +1553,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1574,17 +1578,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1594,12 +1598,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -1614,12 +1618,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -1644,12 +1648,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -1659,32 +1663,32 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 122
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 124
+      "duration": 126
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1724,12 +1728,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 48
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a rejected promise",
@@ -1744,7 +1748,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 44
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1764,17 +1768,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1794,12 +1798,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a rejected promise",
@@ -1814,12 +1818,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -1844,12 +1848,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1864,12 +1868,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1884,12 +1888,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -1904,12 +1908,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -1919,12 +1923,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -1954,12 +1958,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -1999,17 +2003,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 61
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2019,22 +2023,22 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2049,12 +2053,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2094,12 +2098,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -2139,17 +2143,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 61
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2159,12 +2163,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2174,12 +2178,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -2214,12 +2218,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a rejected promise",
@@ -2234,12 +2238,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2264,12 +2268,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2284,12 +2288,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2304,12 +2308,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2324,12 +2328,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2339,12 +2343,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2389,12 +2393,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2414,12 +2418,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2434,12 +2438,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2454,7 +2458,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2484,12 +2488,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -2509,7 +2513,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2524,12 +2528,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2539,12 +2543,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2599,7 +2603,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2614,12 +2618,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -2629,42 +2633,42 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 124
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2684,17 +2688,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 43
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 20
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2704,12 +2708,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2724,12 +2728,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -2744,7 +2748,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2759,12 +2763,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2819,7 +2823,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -2829,62 +2833,62 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 33
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -2949,17 +2953,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
@@ -2969,17 +2973,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -2994,12 +2998,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -3014,12 +3018,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -3044,12 +3048,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -3059,12 +3063,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 124
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3074,32 +3078,32 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 206
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 214
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
       "duration": 201
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
       "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -3109,17 +3113,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 200
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 205
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -3129,37 +3133,37 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
       "duration": 201
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 205
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 205
     },
     {
       "title": "via return from a rejected promise",
@@ -3169,12 +3173,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3184,12 +3188,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -3199,52 +3203,52 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 205
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3254,22 +3258,22 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -3289,12 +3293,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3304,7 +3308,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3314,12 +3318,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -3329,17 +3333,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -3354,12 +3358,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
@@ -3369,22 +3373,22 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3394,7 +3398,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3404,22 +3408,22 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -3429,47 +3433,47 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 201
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
       "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -3479,7 +3483,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
@@ -3489,52 +3493,52 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 200
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3544,27 +3548,27 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 200
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3574,17 +3578,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 200
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3594,47 +3598,47 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 205
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 200
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 21
+      "duration": 20
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3644,12 +3648,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `null` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -3664,12 +3668,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `null` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `false` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -3684,12 +3688,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `false` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `0` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -3704,7 +3708,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `0` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3714,12 +3718,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3734,12 +3738,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error without a stack `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error without a stack `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3749,17 +3753,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3774,12 +3778,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an object `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an object `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3794,12 +3798,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an always-pending thenable `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an always-pending thenable `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3814,12 +3818,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a fulfilled promise `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a fulfilled promise `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3834,12 +3838,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a rejected promise `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a rejected promise `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -3849,12 +3853,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both synchronously via return from a fulfilled promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3864,12 +3868,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` synchronously then `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -3879,12 +3883,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-fulfilled promise, then calling `rejectPromise`, both synchronously via return from a fulfilled promise",
-      "duration": 107
+      "duration": 106
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-fulfilled promise, then calling `rejectPromise`, both synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3899,7 +3903,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` then `resolvePromise`, both synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -3909,7 +3913,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` synchronously then `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -3924,12 +3928,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` then `resolvePromise`, both asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -3944,17 +3948,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, first synchronously then asynchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, both times asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, both times asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3969,12 +3973,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-rejected promise, then calling it again, both times synchronously via return from a fulfilled promise",
-      "duration": 109
+      "duration": 108
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-rejected promise, then calling it again, both times synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -3989,7 +3993,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` twice, first synchronously then asynchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -4004,17 +4008,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` twice, both times asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. saving and abusing `resolvePromise` and `rejectPromise` via return from a fulfilled promise",
-      "duration": 112
+      "duration": 115
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. saving and abusing `resolvePromise` and `rejectPromise` via return from a rejected promise",
-      "duration": 109
+      "duration": 106
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4044,7 +4048,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `resolvePromise` was called with an asynchronously-rejected promise via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4059,7 +4063,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `resolvePromise` then `rejectPromise` were called via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -4069,7 +4073,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `rejectPromise` then `resolvePromise` were called via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -4084,7 +4088,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.2: Otherwise, reject `promise` with `e` as the reason. straightforward case via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4094,7 +4098,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.2: Otherwise, reject `promise` with `e` as the reason. `resolvePromise` is called asynchronously before the `throw` via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4114,12 +4118,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is `5` via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is an object via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -4139,7 +4143,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is a regular expression via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -4149,7 +4153,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is an object inheriting from `Function.prototype` via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -4159,67 +4163,67 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-fulfilled",
-      "duration": 213
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-fulfilled",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-fulfilled",
-      "duration": 203
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-rejected",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-rejected",
-      "duration": 201
+      "duration": 31
     },
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-rejected",
-      "duration": 204
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-fulfilled",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-fulfilled",
-      "duration": 203
+      "duration": 31
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-fulfilled",
-      "duration": 203
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-rejected",
-      "duration": 201
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-rejected",
-      "duration": 204
+      "duration": 31
     },
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-rejected",
-      "duration": 203
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `false` already-fulfilled",
-      "duration": 21
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -4254,7 +4258,7 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` immediately-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "eventually-fulfilled",
@@ -4274,12 +4278,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` eventually-rejected",
-      "duration": 94
+      "duration": 96
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` already-fulfilled",
-      "duration": 31
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -4294,12 +4298,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` already-rejected",
-      "duration": 31
+      "duration": 36
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` immediately-rejected",
-      "duration": 31
+      "duration": 26
     },
     {
       "title": "eventually-rejected",
@@ -4334,12 +4338,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` with `Boolean.prototype` modified to have a `then` method eventually-rejected",
-      "duration": 95
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `1` with `Number.prototype` modified to have a `then` method already-fulfilled",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -4370,124 +4374,38 @@
   "failures": [
     {
       "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a fulfilled promise",
-      "duration": 211
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a rejected promise",
-      "duration": 201
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a rejected promise",
-      "duration": 201
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a fulfilled promise",
-      "duration": 212
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 206
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 213
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise"
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a rejected promise"
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 213
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise"
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a rejected promise"
-    },
-    {
-      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
       "duration": 215
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 206
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 214
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
       "duration": 201
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
       "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -4497,17 +4415,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 200
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 205
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -4517,37 +4435,37 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
       "duration": 201
     },
     {
       "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 205
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 205
     },
     {
       "title": "via return from a rejected promise",
@@ -4557,12 +4475,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4572,12 +4490,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -4587,52 +4505,52 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 205
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4642,22 +4560,22 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -4677,12 +4595,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4692,7 +4610,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4702,12 +4620,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -4717,17 +4635,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an already-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -4742,12 +4660,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
@@ -4757,22 +4675,22 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4782,7 +4700,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4792,22 +4710,22 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
@@ -4817,47 +4735,47 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 201
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 202
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
       "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 204
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 202
     },
     {
       "title": "via return from a rejected promise",
@@ -4867,7 +4785,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
@@ -4877,52 +4795,52 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 201
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 200
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 201
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4932,27 +4850,27 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 200
-    },
-    {
-      "title": "via return from a fulfilled promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 204
-    },
-    {
-      "title": "via return from a rejected promise",
-      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
       "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 203
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 201
+    },
+    {
+      "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 203
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 202
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4962,17 +4880,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 204
+      "duration": 200
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a fulfilled promise",
@@ -4982,96 +4900,36 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 201
+      "duration": 203
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 203
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 200
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 202
+      "duration": 205
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 204
+      "duration": 202
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 200
+      "duration": 204
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an eventually-fulfilled promise for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 204
-    },
-    {
-      "title": "already-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-fulfilled",
-      "duration": 213
-    },
-    {
-      "title": "immediately-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-fulfilled",
-      "duration": 203
-    },
-    {
-      "title": "eventually-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-fulfilled",
-      "duration": 203
-    },
-    {
-      "title": "already-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-rejected",
-      "duration": 203
-    },
-    {
-      "title": "immediately-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-rejected",
-      "duration": 201
-    },
-    {
-      "title": "eventually-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-rejected",
-      "duration": 204
-    },
-    {
-      "title": "already-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-fulfilled",
-      "duration": 203
-    },
-    {
-      "title": "immediately-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-fulfilled",
-      "duration": 203
-    },
-    {
-      "title": "eventually-fulfilled",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-fulfilled",
-      "duration": 203
-    },
-    {
-      "title": "already-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-rejected",
-      "duration": 201
-    },
-    {
-      "title": "immediately-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-rejected",
-      "duration": 204
-    },
-    {
-      "title": "eventually-rejected",
-      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-rejected",
       "duration": 203
     }
   ],
@@ -5079,57 +4937,57 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. already-fulfilled",
-      "duration": 101
+      "duration": 102
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. immediately-fulfilled",
-      "duration": 109
+      "duration": 106
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. eventually-fulfilled",
-      "duration": 106
+      "duration": 109
     },
     {
       "title": "trying to fulfill then immediately reject",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill then immediately reject",
-      "duration": 110
+      "duration": 111
     },
     {
       "title": "trying to fulfill then reject, delayed",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill then reject, delayed",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "trying to fulfill immediately then reject delayed",
       "fullTitle": "2.1.2.1: When fulfilled, a promise: must not transition to any other state. trying to fulfill immediately then reject delayed",
-      "duration": 108
+      "duration": 107
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. already-rejected",
-      "duration": 113
+      "duration": 109
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. immediately-rejected",
-      "duration": 107
+      "duration": 108
     },
     {
       "title": "eventually-rejected",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. eventually-rejected",
-      "duration": 108
+      "duration": 113
     },
     {
       "title": "trying to reject then immediately fulfill",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. trying to reject then immediately fulfill",
-      "duration": 109
+      "duration": 108
     },
     {
       "title": "trying to reject then fulfill, delayed",
       "fullTitle": "2.1.3.1: When rejected, a promise: must not transition to any other state. trying to reject then fulfill, delayed",
-      "duration": 113
+      "duration": 107
     },
     {
       "title": "trying to reject immediately then fulfill delayed",
@@ -5139,7 +4997,7 @@
     {
       "title": "`onFulfilled` is `undefined`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `undefined`",
-      "duration": 10
+      "duration": 13
     },
     {
       "title": "`onFulfilled` is `null`",
@@ -5149,12 +5007,12 @@
     {
       "title": "`onFulfilled` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `false`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "`onFulfilled` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a directly-rejected promise `onFulfilled` is `5`",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "`onFulfilled` is an object",
@@ -5169,7 +5027,7 @@
     {
       "title": "`onFulfilled` is `null`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is `null`",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "`onFulfilled` is `false`",
@@ -5179,12 +5037,12 @@
     {
       "title": "`onFulfilled` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is `5`",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "`onFulfilled` is an object",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.1: If `onFulfilled` is not a function, it must be ignored. applied to a promise rejected and then chained off of `onFulfilled` is an object",
-      "duration": 30
+      "duration": 27
     },
     {
       "title": "`onRejected` is `undefined`",
@@ -5199,12 +5057,12 @@
     {
       "title": "`onRejected` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a directly-fulfilled promise `onRejected` is `false`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "`onRejected` is `5`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a directly-fulfilled promise `onRejected` is `5`",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "`onRejected` is an object",
@@ -5224,7 +5082,7 @@
     {
       "title": "`onFulfilled` is `false`",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a promise fulfilled and then chained off of `onFulfilled` is `false`",
-      "duration": 27
+      "duration": 28
     },
     {
       "title": "`onFulfilled` is `5`",
@@ -5234,7 +5092,7 @@
     {
       "title": "`onFulfilled` is an object",
       "fullTitle": "2.2.1: Both `onFulfilled` and `onRejected` are optional arguments. 2.2.1.2: If `onRejected` is not a function, it must be ignored. applied to a promise fulfilled and then chained off of `onFulfilled` is an object",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "already-fulfilled",
@@ -5259,17 +5117,17 @@
     {
       "title": "never fulfilled",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.2: it must not be called before `promise` is fulfilled never fulfilled",
-      "duration": 158
+      "duration": 161
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.3: it must not be called more than once. already-fulfilled",
-      "duration": 13
+      "duration": 11
     },
     {
       "title": "trying to fulfill a pending promise more than once, immediately",
       "fullTitle": "2.2.2: If `onFulfilled` is a function, 2.2.2.3: it must not be called more than once. trying to fulfill a pending promise more than once, immediately",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "trying to fulfill a pending promise more than once, delayed",
@@ -5294,12 +5152,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.1: it must be called after `promise` is rejected, with `promise`’s rejection reason as its first argument. already-rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.1: it must be called after `promise` is rejected, with `promise`’s rejection reason as its first argument. immediately-rejected",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "eventually-rejected",
@@ -5314,17 +5172,17 @@
     {
       "title": "never rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.2: it must not be called before `promise` is rejected never rejected",
-      "duration": 158
+      "duration": 161
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. already-rejected",
-      "duration": 13
+      "duration": 11
     },
     {
       "title": "trying to reject a pending promise more than once, immediately",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. trying to reject a pending promise more than once, immediately",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "trying to reject a pending promise more than once, delayed",
@@ -5339,22 +5197,22 @@
     {
       "title": "when multiple `then` calls are made, spaced apart in time",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. when multiple `then` calls are made, spaced apart in time",
-      "duration": 171
+      "duration": 172
     },
     {
       "title": "when `then` is interleaved with rejection",
       "fullTitle": "2.2.3: If `onRejected` is a function, 2.2.3.3: it must not be called more than once. when `then` is interleaved with rejection",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected already-fulfilled",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected immediately-fulfilled",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "eventually-fulfilled",
@@ -5369,7 +5227,7 @@
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. `then` returns before the promise becomes fulfilled or rejected immediately-rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "eventually-rejected",
@@ -5379,7 +5237,7 @@
     {
       "title": "when `onFulfilled` is added immediately before the promise is fulfilled",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when `onFulfilled` is added immediately before the promise is fulfilled",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "when `onFulfilled` is added immediately after the promise is fulfilled",
@@ -5389,17 +5247,17 @@
     {
       "title": "when one `onFulfilled` is added inside another `onFulfilled`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when one `onFulfilled` is added inside another `onFulfilled`",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "when `onFulfilled` is added inside an `onRejected`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when `onFulfilled` is added inside an `onRejected`",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "when the promise is fulfilled asynchronously",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (fulfillment case) when the promise is fulfilled asynchronously",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "when `onRejected` is added immediately before the promise is rejected",
@@ -5419,7 +5277,7 @@
     {
       "title": "when one `onRejected` is added inside another `onRejected`",
       "fullTitle": "2.2.4: `onFulfilled` or `onRejected` must not be called until the execution context stack contains only platform code. Clean-stack execution ordering tests (rejection case) when one `onRejected` is added inside another `onRejected`",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "when the promise is rejected asynchronously",
@@ -5429,22 +5287,22 @@
     {
       "title": "fulfilled",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). strict mode fulfilled",
-      "duration": 15
+      "duration": 14
     },
     {
       "title": "rejected",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). strict mode rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "fulfilled",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). sloppy mode fulfilled",
-      "duration": 16
+      "duration": 15
     },
     {
       "title": "rejected",
       "fullTitle": "2.2.5 `onFulfilled` and `onRejected` must be called as functions (i.e. with no `this` value). sloppy mode rejected",
-      "duration": 15
+      "duration": 16
     },
     {
       "title": "already-fulfilled",
@@ -5459,7 +5317,7 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. multiple boring fulfillment handlers eventually-fulfilled",
-      "duration": 78
+      "duration": 76
     },
     {
       "title": "already-fulfilled",
@@ -5469,7 +5327,7 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. multiple fulfillment handlers, one of which throws immediately-fulfilled",
-      "duration": 16
+      "duration": 14
     },
     {
       "title": "eventually-fulfilled",
@@ -5479,17 +5337,17 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values already-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values immediately-fulfilled",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values eventually-fulfilled",
-      "duration": 94
+      "duration": 93
     },
     {
       "title": "already-fulfilled",
@@ -5509,7 +5367,7 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. `onFulfilled` handlers are called in the original order even when one handler is added inside another handler already-fulfilled",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "immediately-fulfilled",
@@ -5519,17 +5377,17 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.1: If/when `promise` is fulfilled, all respective `onFulfilled` callbacks must execute in the order of their originating calls to `then`. `onFulfilled` handlers are called in the original order even when one handler is added inside another handler eventually-fulfilled",
-      "duration": 94
+      "duration": 93
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple boring rejection handlers already-rejected",
-      "duration": 16
+      "duration": 17
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple boring rejection handlers immediately-rejected",
-      "duration": 14
+      "duration": 15
     },
     {
       "title": "eventually-rejected",
@@ -5539,12 +5397,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple rejection handlers, one of which throws already-rejected",
-      "duration": 17
+      "duration": 15
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. multiple rejection handlers, one of which throws immediately-rejected",
-      "duration": 14
+      "duration": 62
     },
     {
       "title": "eventually-rejected",
@@ -5554,7 +5412,7 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.2.6: `then` may be called multiple times on the same promise. 2.2.6.2: If/when `promise` is rejected, all respective `onRejected` callbacks must execute in the order of their originating calls to `then`. results in multiple branching chains with their own fulfillment values already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5609,7 +5467,7 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `undefined` already-fulfilled",
-      "duration": 26
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -5649,12 +5507,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `null` eventually-fulfilled",
-      "duration": 94
+      "duration": 95
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is `null` already-rejected",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-rejected",
@@ -5734,12 +5592,12 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error immediately-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error eventually-fulfilled",
-      "duration": 93
+      "duration": 92
     },
     {
       "title": "already-rejected",
@@ -5759,17 +5617,17 @@
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack already-fulfilled",
-      "duration": 33
+      "duration": 34
     },
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack immediately-fulfilled",
-      "duration": 31
+      "duration": 28
     },
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack eventually-fulfilled",
-      "duration": 92
+      "duration": 94
     },
     {
       "title": "already-rejected",
@@ -5784,12 +5642,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an error without a stack eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5799,12 +5657,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5814,12 +5672,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a date eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object already-fulfilled",
-      "duration": 31
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -5829,12 +5687,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5844,12 +5702,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an object eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5859,12 +5717,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5874,12 +5732,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is an always-pending thenable eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5889,12 +5747,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5904,12 +5762,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a fulfilled promise eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5919,12 +5777,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -5934,12 +5792,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.2: If either `onFulfilled` or `onRejected` throws an exception `e`, `promise2` must be rejected with `e` as the reason. The reason is a rejected promise eventually-rejected",
-      "duration": 93
+      "duration": 115
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `undefined` already-fulfilled",
-      "duration": 32
+      "duration": 25
     },
     {
       "title": "immediately-fulfilled",
@@ -5949,12 +5807,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `undefined` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `null` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5964,12 +5822,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `null` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `false` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5979,12 +5837,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `false` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `5` already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -5994,12 +5852,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is `5` eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an object already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -6009,12 +5867,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an object eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an array containing a function already-fulfilled",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -6024,12 +5882,12 @@
     {
       "title": "eventually-fulfilled",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.3: If `onFulfilled` is not a function and `promise1` is fulfilled, `promise2` must be fulfilled with the same value. `onFulfilled` is an array containing a function eventually-fulfilled",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `undefined` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -6039,12 +5897,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `undefined` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `null` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -6054,12 +5912,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `null` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `false` already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -6069,12 +5927,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `false` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `5` already-rejected",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "immediately-rejected",
@@ -6084,12 +5942,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is `5` eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an object already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -6099,12 +5957,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an object eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "already-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an array containing a function already-rejected",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "immediately-rejected",
@@ -6114,12 +5972,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.2.7: `then` must return a promise: `promise2 = promise1.then(onFulfilled, onRejected)` 2.2.7.4: If `onRejected` is not a function and `promise1` is rejected, `promise2` must be rejected with the same reason. `onRejected` is an array containing a function eventually-rejected",
-      "duration": 93
+      "duration": 94
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.1: If `promise` and `x` refer to the same object, reject `promise` with a `TypeError' as the reason. via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6129,27 +5987,27 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.1: If `x` is pending, `promise` must remain pending until `x` is fulfilled or rejected. via return from a fulfilled promise",
-      "duration": 113
+      "duration": 111
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.1: If `x` is pending, `promise` must remain pending until `x` is fulfilled or rejected. via return from a rejected promise",
-      "duration": 110
+      "duration": 112
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is already-fulfilled via return from a fulfilled promise",
-      "duration": 41
+      "duration": 42
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is already-fulfilled via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.2: If/when `x` is fulfilled, fulfill `promise` with the same value. `x` is eventually-fulfilled via return from a fulfilled promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a rejected promise",
@@ -6164,22 +6022,52 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is already-rejected via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is eventually-rejected via return from a fulfilled promise",
-      "duration": 109
+      "duration": 111
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.2: If `x` is a promise, adopt its state 2.3.2.3: If/when `x` is rejected, reject `promise` with the same reason. `x` is eventually-rejected via return from a rejected promise",
-      "duration": 109
+      "duration": 108
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a fulfilled promise",
+      "duration": 25
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with null prototype via return from a rejected promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a fulfilled promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is an object with normal Object.prototype via return from a rejected promise",
+      "duration": 32
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a fulfilled promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.1: Let `then` be `x.then` `x` is a function via return from a rejected promise",
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `undefined` via return from a fulfilled promise",
-      "duration": 21
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6189,12 +6077,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `null` via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `null` via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6214,12 +6102,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is `0` via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is an error via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6239,12 +6127,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a date via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a date via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6264,12 +6152,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is an always-pending thenable via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a fulfilled promise via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6284,7 +6172,67 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.2: If retrieving the property `x.then` results in a thrown exception `e`, reject `promise` with `e` as the reason. `e` is a rejected promise via return from a rejected promise",
+      "duration": 33
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a fulfilled promise",
+      "duration": 25
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Calls with `x` as `this` and two function arguments via return from a rejected promise",
       "duration": 31
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a fulfilled promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` Uses the original value of `then` via return from a rejected promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 28
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 32
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 46
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `undefined` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 47
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` synchronously via return from a rejected promise",
+      "duration": 31
+    },
+    {
+      "title": "via return from a fulfilled promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
+      "duration": 47
+    },
+    {
+      "title": "via return from a rejected promise",
+      "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `null` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6324,7 +6272,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is `5` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6334,7 +6282,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an object `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6359,12 +6307,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an array `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 48
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is not a thenable `y` is an array `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6394,12 +6342,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -6409,67 +6357,67 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 38
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 39
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 45
     },
     {
       "title": "via return from a rejected promise",
@@ -6529,12 +6477,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6554,17 +6502,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6574,12 +6522,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -6594,12 +6542,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -6624,12 +6572,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -6639,32 +6587,32 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 122
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable `y` is an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 124
+      "duration": 126
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6704,12 +6652,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 48
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a rejected promise",
@@ -6724,7 +6672,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 44
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6744,17 +6692,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6774,12 +6722,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a rejected promise",
@@ -6794,12 +6742,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -6824,12 +6772,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6844,12 +6792,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6864,12 +6812,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -6884,12 +6832,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -6899,12 +6847,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled custom thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -6934,12 +6882,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -6979,17 +6927,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 61
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -6999,22 +6947,22 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7029,12 +6977,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7074,12 +7022,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -7119,17 +7067,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 61
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7139,12 +7087,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7154,12 +7102,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -7194,12 +7142,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is an asynchronously-fulfilled custom thenable for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a rejected promise",
@@ -7214,12 +7162,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7244,12 +7192,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7264,12 +7212,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7284,12 +7232,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7304,12 +7252,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7319,12 +7267,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7369,12 +7317,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7394,12 +7342,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7414,12 +7362,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7434,7 +7382,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7464,12 +7412,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a synchronously-fulfilled one-time thenable for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -7489,7 +7437,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7504,12 +7452,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7519,12 +7467,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7579,7 +7527,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7594,12 +7542,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -7609,42 +7557,42 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 124
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an eventually-fulfilled promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7664,17 +7612,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 43
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 20
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7684,12 +7632,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7704,12 +7652,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -7724,7 +7672,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7739,12 +7687,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that tries to fulfill twice for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7799,7 +7747,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-fulfilled custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 63
+      "duration": 62
     },
     {
       "title": "via return from a rejected promise",
@@ -7809,62 +7757,62 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 33
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-fulfilled one-time thenable `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that tries to fulfill twice `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that fulfills but then throws `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
@@ -7929,17 +7877,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an asynchronously-rejected custom thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a rejected promise",
@@ -7949,17 +7897,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a synchronously-rejected one-time thenable `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7974,12 +7922,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that immediately throws in `then` `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for a thenable that immediately throws in `then` `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -7994,12 +7942,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an object with a throwing `then` accessor `then` calls `resolvePromise` synchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an object with a throwing `then` accessor `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -8024,12 +7972,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an already-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 62
+      "duration": 63
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` synchronously via return from a fulfilled promise",
-      "duration": 110
+      "duration": 109
     },
     {
       "title": "via return from a rejected promise",
@@ -8039,22 +7987,22 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 124
+      "duration": 125
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.1: If/when `resolvePromise` is called with value `y`, run `[[Resolve]](promise, y)` `y` is a thenable for a thenable `y` is a thenable that fulfills but then throws for an eventually-rejected promise `then` calls `resolvePromise` asynchronously via return from a rejected promise",
-      "duration": 125
+      "duration": 124
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 21
+      "duration": 20
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8064,12 +8012,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `undefined` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `null` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8084,12 +8032,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `null` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `false` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8104,12 +8052,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `false` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `0` `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8124,7 +8072,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is `0` `then` calls `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8134,12 +8082,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8154,12 +8102,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error without a stack `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an error without a stack `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8169,17 +8117,17 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 30
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a date `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8194,12 +8142,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an object `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an object `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8214,12 +8162,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an always-pending thenable `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is an always-pending thenable `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8234,12 +8182,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a fulfilled promise `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a fulfilled promise `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8254,12 +8202,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a rejected promise `then` calls `rejectPromise` synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.2: If/when `rejectPromise` is called with reason `r`, reject `promise` with `r` `r` is a rejected promise `then` calls `rejectPromise` asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
@@ -8269,12 +8217,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both synchronously via return from a fulfilled promise",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both synchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8284,12 +8232,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` synchronously then `rejectPromise` asynchronously via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` then `rejectPromise`, both asynchronously via return from a fulfilled promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a rejected promise",
@@ -8299,12 +8247,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-fulfilled promise, then calling `rejectPromise`, both synchronously via return from a fulfilled promise",
-      "duration": 107
+      "duration": 106
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-fulfilled promise, then calling `rejectPromise`, both synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8319,7 +8267,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` then `resolvePromise`, both synchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8329,7 +8277,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` synchronously then `resolvePromise` asynchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -8344,12 +8292,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` then `resolvePromise`, both asynchronously via return from a rejected promise",
-      "duration": 47
+      "duration": 46
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice synchronously via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -8364,17 +8312,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, first synchronously then asynchronously via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, both times asynchronously via return from a fulfilled promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` twice, both times asynchronously via return from a rejected promise",
-      "duration": 48
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8389,12 +8337,12 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-rejected promise, then calling it again, both times synchronously via return from a fulfilled promise",
-      "duration": 109
+      "duration": 108
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `resolvePromise` with an asynchronously-rejected promise, then calling it again, both times synchronously via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8409,7 +8357,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` twice, first synchronously then asynchronously via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8424,17 +8372,17 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. calling `rejectPromise` twice, both times asynchronously via return from a rejected promise",
-      "duration": 46
+      "duration": 47
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. saving and abusing `resolvePromise` and `rejectPromise` via return from a fulfilled promise",
-      "duration": 112
+      "duration": 115
     },
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.3: If both `resolvePromise` and `rejectPromise` are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored. saving and abusing `resolvePromise` and `rejectPromise` via return from a rejected promise",
-      "duration": 109
+      "duration": 106
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8464,7 +8412,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `resolvePromise` was called with an asynchronously-rejected promise via return from a rejected promise",
-      "duration": 109
+      "duration": 110
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8479,7 +8427,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `resolvePromise` then `rejectPromise` were called via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8489,7 +8437,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.1: If `resolvePromise` or `rejectPromise` have been called, ignore it. `rejectPromise` then `resolvePromise` were called via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -8504,7 +8452,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.2: Otherwise, reject `promise` with `e` as the reason. straightforward case via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8514,7 +8462,7 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.3: If `then` is a function, call it with `x` as `this`, first argument `resolvePromise`, and second argument `rejectPromise` 2.3.3.3.4: If calling `then` throws an exception `e`, 2.3.3.3.4.2: Otherwise, reject `promise` with `e` as the reason. `resolvePromise` is called asynchronously before the `throw` via return from a rejected promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a fulfilled promise",
@@ -8534,12 +8482,12 @@
     {
       "title": "via return from a rejected promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is `5` via return from a rejected promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is an object via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -8559,7 +8507,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is a regular expression via return from a fulfilled promise",
-      "duration": 32
+      "duration": 31
     },
     {
       "title": "via return from a rejected promise",
@@ -8569,7 +8517,7 @@
     {
       "title": "via return from a fulfilled promise",
       "fullTitle": "2.3.3: Otherwise, if `x` is an object or function, 2.3.3.4: If `then` is not a function, fulfill promise with `x` `then` is an object inheriting from `Function.prototype` via return from a fulfilled promise",
-      "duration": 31
+      "duration": 32
     },
     {
       "title": "via return from a rejected promise",
@@ -8578,8 +8526,68 @@
     },
     {
       "title": "already-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-fulfilled",
+      "duration": 31
+    },
+    {
+      "title": "immediately-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-fulfilled",
+      "duration": 31
+    },
+    {
+      "title": "eventually-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-fulfilled",
+      "duration": 94
+    },
+    {
+      "title": "already-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` already-rejected",
+      "duration": 31
+    },
+    {
+      "title": "immediately-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` immediately-rejected",
+      "duration": 31
+    },
+    {
+      "title": "eventually-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `undefined` eventually-rejected",
+      "duration": 94
+    },
+    {
+      "title": "already-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-fulfilled",
+      "duration": 31
+    },
+    {
+      "title": "immediately-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-fulfilled",
+      "duration": 31
+    },
+    {
+      "title": "eventually-fulfilled",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-fulfilled",
+      "duration": 94
+    },
+    {
+      "title": "already-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` already-rejected",
+      "duration": 31
+    },
+    {
+      "title": "immediately-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` immediately-rejected",
+      "duration": 31
+    },
+    {
+      "title": "eventually-rejected",
+      "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `null` eventually-rejected",
+      "duration": 94
+    },
+    {
+      "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `false` already-fulfilled",
-      "duration": 21
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",
@@ -8614,7 +8622,7 @@
     {
       "title": "immediately-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` immediately-fulfilled",
-      "duration": 31
+      "duration": 30
     },
     {
       "title": "eventually-fulfilled",
@@ -8634,12 +8642,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` eventually-rejected",
-      "duration": 94
+      "duration": 96
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` already-fulfilled",
-      "duration": 31
+      "duration": 29
     },
     {
       "title": "immediately-fulfilled",
@@ -8654,12 +8662,12 @@
     {
       "title": "already-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` already-rejected",
-      "duration": 31
+      "duration": 36
     },
     {
       "title": "immediately-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `0` immediately-rejected",
-      "duration": 31
+      "duration": 26
     },
     {
       "title": "eventually-rejected",
@@ -8694,12 +8702,12 @@
     {
       "title": "eventually-rejected",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `true` with `Boolean.prototype` modified to have a `then` method eventually-rejected",
-      "duration": 95
+      "duration": 94
     },
     {
       "title": "already-fulfilled",
       "fullTitle": "2.3.4: If `x` is not an object or function, fulfill `promise` with `x` The value is `1` with `Number.prototype` modified to have a `then` method already-fulfilled",
-      "duration": 30
+      "duration": 31
     },
     {
       "title": "immediately-fulfilled",

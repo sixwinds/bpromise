@@ -166,6 +166,7 @@
             var callbackInvoked = false;
             var resolvePromise = function ( y ) {
                 if ( !callbackInvoked ) {
+                    // promise[ METHOD_NAME_RESOLVE ]( y );
                     self.resolvePromise( promise, y );
                     callbackInvoked = true;
                 }
