@@ -123,7 +123,9 @@
         // 3. create a return promise by callback return value X
         // 3.1 if x === current promise
         if ( promise === x ) {
-             throw new TypeError( 'Return promise of method "then" can not be the same object to current promise.' );
+            promise[ METHOD_NAME_REJECT ]( new TypeError( 'Return promise of method "then" can not be the same object to current promise.' ) );
+            return;
+            // throw new TypeError( 'Return promise of method "then" can not be the same object to current promise.' );
         }
     
         // 3.2 if x is a promise
@@ -166,20 +168,23 @@
             var callbackInvoked = false;
             var resolvePromise = function ( y ) {
                 if ( !callbackInvoked ) {
+                    callbackInvoked = true;
                     // promise[ METHOD_NAME_RESOLVE ]( y );
                     self.resolvePromise( promise, y );
-                    callbackInvoked = true;
+                    
                 }
             };
             var rejectPromise = function ( y ) {
                 if ( !callbackInvoked ) {
-                    promise[ METHOD_NAME_REJECT ]( y );
                     callbackInvoked = true;
+                    promise[ METHOD_NAME_REJECT ]( y );
+                    
                 } 
             };
             then.call( thenableObj, resolvePromise, rejectPromise );
         } catch ( e ) {
             if ( !callbackInvoked ) {
+                callbackInvoked = true;
                 promise[ METHOD_NAME_REJECT ]( e );
             }
         }
