@@ -1,0 +1,12 @@
+{
+  "name": "bpromise",
+  "version": "1.0.0",
+  "description": "implementation of promises a+",
+  "main": "index.js",
+  "repository": "https://github.com/sixwinds/bpromise.git",
+  "author": "Bernie <bernie.wangbj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
