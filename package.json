@@ -10,6 +10,7 @@
     "promises-aplus-tests": "^2.1.2"
   },
   "scripts": {
-    "test": "promises-aplus-tests src/bPromise.js --reporter JSON > testResult.json"
+    "test": "promises-aplus-tests src/bPromise.js",
+    "test:report": "promises-aplus-tests src/bPromise.js --reporter JSON > testResult.json"
   }
 }

@@ -1,4 +1,3 @@
-var procedureInvokeTimes = 0;
 var toString = {}.toString;
 
 var PROMISE_STATUS_PENDING = 'pending';
@@ -20,10 +19,10 @@ function isPromise( p ) {
 
 function resolvePromise( promise2, x ) {
   if ( promise2 === x ) {
-    promise2.reject( new TypeError('Can not return promiseX in then callback, promiseX is the return value of then method.') )
+    promise2.reject( new TypeError('A promise cannot be resolved with itself.') )
   } else if ( isPromise(x) ){
     x.then( function(value){
-      promise2.resolve( value );
+      resolvePromise( promise2, value );
     }, function(reason){
       promise2.reject( reason )
     } )
@@ -51,6 +50,7 @@ function resolvePromise( promise2, x ) {
         } );
       } catch( e ){
         if ( !isThenableCallbackInvoked ) {
+          isThenableCallbackInvoked = true;
           promise2.reject( e );
         }
       }
@@ -63,8 +63,6 @@ function resolvePromise( promise2, x ) {
 }
 
 function resolveCallbackPromiseQueue( queue, status, value ) {
-  procedureInvokeTimes++;
-  // console.log( 'procedureInvokeTimes: ' + procedureInvokeTimes )
   if ( queue ) {
     var len = queue.length;
     for( var i = 0; i < len; i++ ) {
@@ -89,30 +87,6 @@ function resolveCallbackPromiseQueue( queue, status, value ) {
         }
       }
     }
-
-/*    var queueEl = queue.shift();
-    while( queueEl ) {
-      var callbackFunc = queueEl.callback;
-      var promise2 = queueEl.promise;
-
-      if ( callbackFunc ) {
-        var x;
-        try {
-          x = callbackFunc( value );
-        } catch ( e ) {
-          promise2.reject( e );
-          continue;
-        }
-        resolvePromise( promise2, x );
-      } else {
-        if ( status === PROMISE_STATUS_RESOLVED ) {
-          promise2.resolve( value );
-        } else if ( status === PROMISE_STATUS_REJECTED ) {
-          promise2.reject( value );
-        }
-      }
-      queueEl = queue.shift();
-    }*/
   }
 }
 
@@ -136,7 +110,6 @@ function BPromise( executor ) {
 BPromise.prototype.isPromise = true;
 
 BPromise.prototype.triggerCallbackPromiseQueueProcedure = function () {
-  // console.log( 'invoke trigger')
   let callbackPromiseQueue;
   if ( this._status === PROMISE_STATUS_RESOLVED ) {
     callbackPromiseQueue = this._onFulfilledFuncQueue;
@@ -158,7 +131,6 @@ BPromise.prototype.resolve = function ( value ) {
   if ( this._status === PROMISE_STATUS_PENDING ) {
     this._status = PROMISE_STATUS_RESOLVED;
     this._value = value;
-    // console.log('in resolve')
     this.triggerCallbackPromiseQueueProcedure();
   }
 }
@@ -167,7 +139,6 @@ BPromise.prototype.reject = function ( reason ) {
   if ( this._status === PROMISE_STATUS_PENDING ) {
     this._status = PROMISE_STATUS_REJECTED;
     this._value = reason;
-    // console.log('in reject')
     this.triggerCallbackPromiseQueueProcedure();
   }
 }
@@ -197,10 +168,7 @@ BPromise.prototype.then = function ( onFulfilled, onRejected ) {
     }
   }
 
-  // console.log('queue length:'+ this._onFulfilledFuncQueue.length )
-
   if ( this._status !== PROMISE_STATUS_PENDING && this._onFulfilledFuncQueue.length === 1 ) {
-    // console.log('in then')
     this.triggerCallbackPromiseQueueProcedure();
   }
   return promise2;
@@ -233,28 +201,5 @@ BPromise.deferred = function () {
       }
   }
 };
-
-
-// var a = BPromise.resolved(1);
-// a.then( v=>console.log(1))
-// a.then( v=>console.log(2))
-// a.then( v=>{
-//   console.log(3)
-//   a.then( v=>console.log(7))
-//   console.log('should before 7')
-//   // throw new Error();
-// })
-// a.then( v=>console.log(4))
-// a.then( v=>{
-//   console.log(5)
-//   a.then( v=>console.log(8))
-//   console.log('should before 8')
-// })
-// a.then( v=>{
-//   console.log(6)
-//   a.then( v=>console.log(9))
-//   console.log('should before 9')
-// })
-// console.log('start ====================================================== ')
 
 module.exports = BPromise;
