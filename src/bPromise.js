@@ -81,34 +81,6 @@ function resolvePromise( promise2, x ) {
   }
 }
 
-// function resolveCallbackPromiseQueue( queue, status, value ) {
-//   if ( queue ) {
-//     var len = queue.length;
-//     for( var i = 0; i < len; i++ ) {
-//       var queueItem = queue[ i ];
-//       var callbackFunc = queueItem.callback;
-//       var promise2 = queueItem.promise;
-
-//       if ( callbackFunc ) {
-//         var x;
-//         try {
-//           x = callbackFunc( value );
-//         } catch ( e ) {
-//           promise2.reject( e );
-//           continue;
-//         }
-//         resolvePromise( promise2, x );
-//       } else {
-//         if ( status === PROMISE_STATUS_RESOLVED ) {
-//           promise2.resolve( value );
-//         } else if ( status === PROMISE_STATUS_REJECTED ) {
-//           promise2.reject( value );
-//         }
-//       }
-//     }
-//   }
-// }
-
 function BPromise( executor ) {
   this._status = Status.Pending;
   this._jobQueue = new JobQueue();
@@ -126,50 +98,6 @@ function BPromise( executor ) {
     rejectPromise( this, e );
   }
 }
-
-// BPromise.prototype.triggerJobQueueProcedure = function () {
-//   let callbackPromiseQueue;
-//   if ( this._status === PROMISE_STATUS_RESOLVED ) {
-//     callbackPromiseQueue = this._onFulfilledFuncQueue;
-//   } else if ( this._status === PROMISE_STATUS_REJECTED ) {
-//     callbackPromiseQueue = this._onRejectedFuncQueue;
-//   }
-
-//   if ( callbackPromiseQueue && callbackPromiseQueue.length ) {
-//     let self = this;
-//     setTimeout( function() {
-//       self._onFulfilledFuncQueue = [];
-//       self._onRejectedFuncQueue = [];
-//       resolveCallbackPromiseQueue( callbackPromiseQueue, self._status, self._value );
-//     } );
-//   }
-// }
-
-// BPromise.prototype.resolve = function ( value ) {
-//   if ( this._status === PROMISE_STATUS_PENDING ) {
-//     this._status = PROMISE_STATUS_RESOLVED;
-//     this._value = value;
-//     this.triggerCallbackPromiseQueueProcedure();
-//   }
-// }
-
-// BPromise.prototype.reject = function ( reason ) {
-//   if ( this._status === PROMISE_STATUS_PENDING ) {
-//     this._status = PROMISE_STATUS_REJECTED;
-//     this._value = reason;
-//     this.triggerCallbackPromiseQueueProcedure();
-//   }
-// }
-
-
-
-// BPromise.prototype.enqueue = function ( job ) {
-//   this._jobQueue.push( job );
-//   if ( this._) {
-
-//   }
-// }
-
 
 function resolveThenResultPromise( promise2, callbackFunc, value, reaction ) {
   if ( isFunction(callbackFunc) ) {
@@ -212,45 +140,12 @@ BPromise.prototype.then = function ( onFulfilled, onRejected ) {
       } )
     }
   }
-  // var job = {
-  //   promise: promise2,
-  //   onFulfilled: isFunction( onFulfilled ) && onFulfilled,
-  //   onRejected: isFunction( onRejected ) && onRejected
-  // }
-  // this._jobQueue.push( job );
-  
-
-  // var callbackNameFuncDic = {
-  //   onFulfilled: onFulfilled,
-  //   onRejected: onRejected
-  // }
-
-  // for( var callbackName in callbackNameFuncDic ) {
-  //   var callbackFunc = callbackNameFuncDic[ callbackName ];
-  //   var callbackFuncQueue = this[ '_'+callbackName+'FuncQueue' ];
-
-  //   if ( isFunction(callbackFunc) ) {
-  //     callbackFuncQueue.push( {
-  //       promise: promise2,
-  //       callback: callbackFunc
-  //     } )
-  //   } else {
-  //     callbackFuncQueue.push( {
-  //       promise: promise2
-  //     } )
-  //   }
-  // }
-
-  // if ( this._status !== PROMISE_STATUS_PENDING && this._onFulfilledFuncQueue.length === 1 ) {
-  //   this.triggerCallbackPromiseQueueProcedure();
-  // }
   return promise2;
 }
 
 BPromise.resolved = function ( value ) {
   var p = new BPromise();
   resolvePromise( p, value );
-  // p.resolve( value );
 
   return p;
 };
@@ -258,7 +153,6 @@ BPromise.resolved = function ( value ) {
 BPromise.rejected = function ( value ) {
   var p = new BPromise();
   rejectPromise( p, value );
-  // p.reject( value );
 
   return p;    
 };
